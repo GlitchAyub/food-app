@@ -10,14 +10,14 @@ export default function Slider() {
     >
       <div className="carousel-inner" id="carousel">
         <div className="carousel-caption" style={{zIndex:10}}>
-          <form class="d-flex">
+          <form className="d-flex">
             <input
-              class="form-control me-2 bg-transparent text-white"
+              className="form-control me-2 bg-transparent text-white"
               type="search"
               placeholder="Search"
               aria-label="Search"
             />
-            <button class="btn btn-outline-success text-white" type="submit">
+            <button className="btn btn-outline-success text-white" type="submit">
               Search
             </button>
           </form>
