@@ -18,6 +18,7 @@ app.get('/',(req,res)=>{
 })
 
 app.use('/api',require("./Routes/CreateUser"))
+app.use('/api',require("./Routes/Display"))
 mongodb();
 
 app.listen(port,()=>{
