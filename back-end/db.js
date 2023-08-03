@@ -15,8 +15,8 @@ const mongodb = async () => {
         global.food_items = await foodItemsCollection.find({}).toArray();
         global.foodCategories = await foodCategoriesCollection.find({}).toArray();
 
-        console.log(global.food_items);
-        console.log(global.foodCategories);
+        // console.log(global.food_items);
+        // console.log(global.foodCategories);
     } catch (err) {
         console.log(`connection failed ${err}`);
     }
