@@ -42,3 +42,7 @@
   box-sizing: border-box;
   overflow: none;
 }
+body{
+  background-color: #282c34;
+  /* color: white; */
+}
